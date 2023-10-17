@@ -1,4 +1,4 @@
-def menu():
+..... menu():
     print("Kalkulator bermenu")
     print("1. Tambah")
     print("2. Tolak")
@@ -10,22 +10,22 @@ def dpt_pilihan_pengguna():
     noPilihan = 0
     while (noPilihan < 1) or (noPilihan > 5):
         noPilihan = int(input("Pilihan anda [1 hingga 5]: "))
-    return noPilihan
+    ...... noPilihan
 
 def dpt_dua_nombor():
     nombor1 = int(input("Masukkan nombor pertama: "))
     nombor2 = int(input("Masukkan nombor kedua: "))
-    return nombor1, nombor2
+    return ..................
 
 def kira_cetak(jenisOperator, a, b):
     if jenisOperator == 1:
-        print(f"Output: {a} + {b} = {a + b}\n")
+        print(f"Output: {.....} + {.....} = {......}\n")
     elif jenisOperator == 2:
         print(f"Output: {a} - {b} = {a - b}\n")
     elif jenisOperator == 3:
-        print(f"Output: {a} * {b} = {a * b}\n")
-    elif jenisOperator == 4:
-        print(f"Output: {a} / {b} = {a / b}\n")
+        print(f"Output: ..... * ..... = {........}\n")
+    elif jenisOperator == .....:
+        print(f"Output: {a} / {b} = {........}\n")
 
 def main():
     aktif = 1
